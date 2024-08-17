@@ -3,7 +3,7 @@
 
 int main()
 {
-  int kSize = 5;
+  const int kSize = 5;
   int number_collection[kSize];
   std::cout << "Enter five numbers leaving one space between each number:" << std::endl;
 
